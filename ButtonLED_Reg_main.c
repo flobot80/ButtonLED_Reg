@@ -1,6 +1,6 @@
 // This application uses button 1 and LED 1
 // The operation is such that if you press the left button, as long as you keep the button pressed,
-// the LED is on. As soon as you rlease the button, LED is off and stays off until the button is pressed again.
+// the LED is on. As soon as you release the button, LED is off and stays off until the button is pressed again.
 
 #include <ti/devices/msp432p4xx/driverlib/driverlib.h>
 
@@ -16,7 +16,7 @@
 // When a button is pressed, it is grounded (logic 0)
 #define PRESSED 0
 
-// This function intializes all the peripherals
+// This function initializes all the peripherals
 void initialize();
 
 int main(void)
