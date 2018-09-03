@@ -1,6 +1,7 @@
 // This application uses button 1 and LED 1
 // The operation is such that if you press the left button, as long as you keep the button pressed,
 // the LED is on. As soon as you release the button, LED is off and stays off until the button is pressed again.
+// This example use memory-mapped registers to communicate with GPIO peripherals.
 
 #include <ti/devices/msp432p4xx/driverlib/driverlib.h>
 
